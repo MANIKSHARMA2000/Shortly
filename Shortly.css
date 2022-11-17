@@ -1,0 +1,554 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+.navbar{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.websitename{
+    font-family: 'Poppins', sans-serif;
+
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+nav{
+    
+    font-family: 'Poppins', sans-serif;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    width: 50%;
+}
+nav a{
+    color: gray;
+    text-decoration: none;
+    margin: 15px;
+
+}
+.login-signup{
+    
+    font-family: 'Poppins', sans-serif;
+    width: 27%;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+.login-signup button{
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: large;
+    
+}
+#login{
+    background-color: white;
+    color: gray;
+    border: 1px solid white;
+}
+#signup{
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    color: white;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.headingText{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    
+    width: 48%;
+    height: 100%;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.headingText p{
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.headingText button{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border: .5px solid hsl(180, 66%, 49%);
+}
+.man-computer-image{
+    background-image: url(images/illustration-working.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 51%;
+    height: 100%;
+    
+    
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+   max-height: fit-content;
+    
+    background-color: whitesmoke;
+    
+}
+.searchbar-container{
+    
+    background-color: hsl(257, 27%, 26%);
+    width: 1000px;
+    background-image: url();
+    height: 167px;
+    border: 3px solid hsl(257, 27%, 26%);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url(images/bg-shorten-desktop.svg);
+    position: relative;
+    bottom: 95px;
+
+}
+.searchbar-container button{
+
+
+    height: 51px;
+    width: 120px;
+    margin: 0px 60px;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    
+}
+#input-field{
+    border: 1px solid hsl(257, 27%, 26%);
+    padding: 0px 10px;
+    width: 600px;   
+    height: 50px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.list-shorten-urls{
+    
+    position: relative;
+    bottom: 70px;
+    max-height: fit-content;
+
+    overflow-x: scroll;
+
+
+    
+}
+.li-el{
+
+
+    
+    width: 96%;
+    height: 65px;
+    margin: 15px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 15px;
+    border-radius: 10px;
+    
+
+
+    
+}
+.longUrl{
+
+    width: 550px;
+    color: black;
+    overflow: scroll;
+
+}
+.short-urlAndBtn{
+    width: 350px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.short-urlAndBtn a{
+    color: hsl(180, 66%, 49%);
+}
+.short-urlAndBtn button{
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    border: 1px solid hsl(180, 66%, 49%);
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+}
+.short-urlAndBtn button:hover{
+    color: white;
+    background-color: hsl(257, 27%, 26%);
+    border: 1px solid hsl(257, 27%, 26%);
+}
+
+.lower{
+    
+    width: 100%;
+    height: 1000px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    background-color: whitesmoke;
+
+}
+.advanced-statistics{
+    
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 250px;
+    
+}
+.advanced-statistics h1 {
+    align-self: center;
+
+    margin: 0;
+    padding: 0;
+}
+.advanced-statistics p{
+    font-size: large;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+.info-cards{
+    
+    font-family: 'Poppins', sans-serif;
+
+
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+
+}
+.info-cards p{
+    font-weight: 300;
+}
+.first-card,.second-card,.third-card{
+
+    background-color: hsl(257, 27%, 26%);
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    
+}
+.info-cards img{
+    margin-left: 18px;
+    margin-top: 15px;
+}
+.field-set{
+    border-radius: 10px;
+    margin: 30px;
+    height: 280px;
+    width: 300px;
+}
+#one{
+
+    
+    background-color: white;
+    border: none;
+    padding-left: 30px;
+    
+}
+#two{
+    
+    background-color: white;
+    position: relative;
+    top: 30px;
+    border: none;
+    padding-left: 30px;
+    
+}
+#three{
+    
+    background-color: white;
+    position: relative;
+    top: 60px;
+    border: none;
+    padding-left: 30px;
+    
+}
+.boost{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(257, 27%, 26%);
+    
+    height: 200px;
+    width: 100%;
+    background-image: url(images/bg-boost-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+
+
+}
+.boost button{
+    color: white;
+    width: 150px;
+    height: 40px;
+    background-color: hsl(180, 66%, 49%);
+    border: 1px solid hsl(180, 66%, 49%);
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 15px;
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
+}
+footer{
+    
+    width: 100%;
+    height: 250px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: hsl(260, 8%, 14%);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.name{
+    
+    height: 100px;
+    width: 120px;
+    
+    color: white;
+
+
+}
+.features{
+    
+    
+    height: 200px;
+    width: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+
+
+}
+.resources{
+    
+    height: 200px;
+    width: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.company{
+    
+    height: 230px;
+    width: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.social-links{
+    
+    position: relative;
+    top: 30px;
+    height: 200px;
+    width: 250px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.social-links a{
+    color: white;
+}
+.social-links a:hover{
+    color: hsl(180, 66%, 49%);
+}
+#footer-head-links{
+    color: white;
+}
+.features a,.resources a,.company a{
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+    margin: 5px;
+}
+@media only screen and (max-width:400px){
+    .navbar{
+        flex-direction: column;
+        max-width: 100%;
+
+    }
+    nav{
+        flex-direction: column;
+    }
+    .websitename{
+        width: 100%;
+        justify-content: flex-start;
+
+    }
+    .login-signup{
+        position: relative;
+        left: 240px;
+        bottom: 150px;
+
+    }
+    .heading{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 400px;
+    }
+    .headingText{
+
+        height: 200px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .headingText h1{
+        font-style: normal;
+    }
+    .headingText p{
+        font-size: small;
+    }
+    .man-computer-image{
+        position: relative;
+    }
+    .middle{
+        flex-direction: row;
+        width: 96%;
+        max-height: fit-content;
+    }
+    .searchbar-container{
+        width: 90%;
+    }
+    #input-field{
+        width: 90%;
+    }
+    #shortenIt-btn{
+        width: 90px;
+        margin-top: 10px;
+        font-size: medium;
+    }
+    .li-el{
+        height: 170px;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-around;
+        margin: 20px;
+        width: 90%;
+    }
+    .short-urlAndBtn{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-end;
+
+    }
+    .list-shorten-urls{
+        height: 600px;
+    }
+    #short-URL{
+        align-self: center;
+    }
+    #copy-btn{
+        width: 96%;
+    }
+    .lower{
+        max-height: fit-content;
+
+    }
+    .info-cards{
+        height: fit-content;
+    }
+    .advanced-statistics{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .advanced-statistics h1{
+        align-self: center;
+    }
+    footer{
+        max-height: fit-content;
+    }
+}
+
