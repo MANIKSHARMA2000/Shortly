@@ -1,8 +1,22 @@
 let UlEl = document.getElementById("ul-el")
 let InputField = document.getElementById("input-field")
 let list = document.getElementById("ul-el")
+let NavBtn  = document.getElementById("nav-btn")
+let AllNavOpt  = document.getElementById("All-in-one-btn")
 let arr = []
-
+let count = 0
+NavBtn.addEventListener('click',()=>{
+    console.log("hi");
+    if(count === 0){
+        AllNavOpt.style.display = "inline"
+        count++
+    }
+    
+    if(count === 1){
+        AllNavOpt.style.display = "none"
+        count--
+    }
+})
 //render Short links 
 function renderList(arr){
     let gatherHTML = ""

@@ -16,6 +16,12 @@
     justify-content: center;
     align-content: center;
 }
+#All-in-one-btn{
+    display: none;
+}
+.websitename button{
+    display: none;
+}
 nav{
     
     font-family: 'Poppins', sans-serif;
@@ -447,99 +453,194 @@ footer{
     margin: 5px;
 }
 @media only screen and (max-width:400px){
+    *{
+        width: 350px;
+    }
     .navbar{
         flex-direction: column;
-        max-width: 100%;
+        max-width: 98%;
 
     }
     nav{
-        flex-direction: column;
+        flex-direction: row;
+        display: none;
     }
     .websitename{
-        width: 100%;
-        justify-content: flex-start;
+        flex-wrap: nowrap;
+        width: 400px;
+        height:60px;
+        align-content: center;
+        justify-content: center;
 
     }
-    .login-signup{
+    .websitename h2{
+        margin-left: 140px;
+        font-size: xx-large;
+    }
+    .websitename button{
+        color: gray;
         position: relative;
-        left: 240px;
-        bottom: 150px;
+        top: 10px;
+        margin-right: 30px;
+        display: inline;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: white;
+    }
+    #icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .login-signup{
+        display: none;
+    }
+    #All-in-one-btn{
+        display: none;
+        width: 400px;
+        margin-left: 10px;
+    }
+   
+    #All-in-one-btn ul li{
+
+        font-size: medium;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        background-color: whitesmoke;
+        border-bottom: .5px solid black;
+        padding: 8px;
+
 
     }
     .heading{
-        width: 100%;
+
+
+        width: 400px;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 400px;
+
+        flex-wrap: wrap-reverse;
+        justify-content: flex-start;
+        align-content: flex-end;
+
+        border: 1px solid black;
+        height: 700px;
     }
     .headingText{
+        flex-direction: row;
+
+        border: 1px solid black;
 
         height: 200px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
+        width: 400px;
+        
     }
-    .headingText h1{
-        font-style: normal;
-    }
+    
     .headingText p{
         font-size: small;
     }
+    .headingText button{
+        width: 200px;
+    }
     .man-computer-image{
-        position: relative;
+        border: 1px solid black;
+        align-self: flex-start;
+        height: 300px;
+        width: 400px;
+        background-size: contain;
+
     }
     .middle{
+        border: 1px solid black;
         flex-direction: row;
-        width: 96%;
+        width: 400px;
         max-height: fit-content;
     }
     .searchbar-container{
-        width: 90%;
+        width: 320px;
+        align-content: space-around;
     }
     #input-field{
-        width: 90%;
+        width: 270px;
     }
     #shortenIt-btn{
-        width: 90px;
-        margin-top: 10px;
+
+        font-weight: 900;
+        border-radius: 10px;
+        width: 290px;
+        margin: 0px;
         font-size: medium;
     }
     .li-el{
         height: 170px;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: space-around;
         margin: 20px;
         width: 90%;
     }
     .short-urlAndBtn{
+        border: 1px solid black;
         height: 100px;
+        width: 270px;;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-content: flex-end;
+        align-content: center;
 
     }
     .list-shorten-urls{
-        height: 600px;
+        
+        width: 380px;
+    }
+    .longUrl{
+        position: relative;
+        left: 10px;
     }
     #short-URL{
-        align-self: center;
+        position: relative;
+        left: 40px;
     }
     #copy-btn{
-        width: 96%;
+        width: 100%;
     }
     .lower{
-        max-height: fit-content;
+        border: 1px solid black;
+        height: fit-content;
+        width: 400px;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: flex-start;
 
     }
     .info-cards{
+        flex-direction: column;
+        height: 700px;
+        width: 400px;
         height: fit-content;
     }
+    #one,#two,#three{
+        width: 300px;
+        margin: 0px;
+        position: relative;
+        top: 0;;
+        bottom: 0;;
+        left: 0;
+        right: 0;
+    }
+    #one p,#two p,#three p{
+        padding: 5px 5px;
+    }
+    .first-card img,.second-card img,.third-card img{
+        height: 40px;
+        width: 40px;
+        
+    }
     .advanced-statistics{
+        height: 400px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -547,8 +648,51 @@ footer{
     .advanced-statistics h1{
         align-self: center;
     }
+    .boost{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        height: 200px;
+        width: 400px;
+    }
+    .boost h1{
+        font-size: x-large;
+        position: relative;
+        left: 40px;
+    }
+    .boost button{
+        margin: 0px;
+    }
     footer{
-        max-height: fit-content;
+
+        height: 1000px;
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .name{
+
+        align-self: center;
+        width: 200px;
+
+    }
+    .features,.resources,.company{
+
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: unset;
+
+        align-self: center;
+
+
+    }
+    .social-links a{
+        
+        height: 50px;
+        width: 50px;
     }
 }
 
