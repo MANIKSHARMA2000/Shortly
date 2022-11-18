@@ -4,19 +4,20 @@ let list = document.getElementById("ul-el")
 let NavBtn  = document.getElementById("nav-btn")
 let AllNavOpt  = document.getElementById("All-in-one-btn")
 let arr = []
-let count = 0
-NavBtn.addEventListener('click',()=>{
-    console.log("hi");
-    if(count === 0){
-        AllNavOpt.style.display = "inline"
-        count++
-    }
-    
-    if(count === 1){
-        AllNavOpt.style.display = "none"
-        count--
-    }
-})
+var callOne = true;
+function one(){
+    AllNavOpt.style.display = "inline"
+    callOne = false;
+}
+function two(){
+    AllNavOpt.style.display = "none"
+    callOne = true;
+}
+function call(){
+    if(callOne){one()}
+  else {two()}
+  
+}
 //render Short links 
 function renderList(arr){
     let gatherHTML = ""

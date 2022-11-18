@@ -498,22 +498,32 @@ footer{
     }
     #All-in-one-btn{
         display: none;
-        width: 400px;
-        margin-left: 10px;
+        width: 450px;
+
     }
-   
+    #All-in-one-btn ul{
+        width: 450px;
+    }
+    #All-in-one-btn ul li:hover{
+        background-color: white;
+    }
     #All-in-one-btn ul li{
+        
 
         font-size: medium;
-        font-weight: 300;
+        font-weight: 100;
         display: flex;
         justify-content: center;
         font-family: 'Poppins', sans-serif;
         background-color: whitesmoke;
-        border-bottom: .5px solid black;
-        padding: 8px;
-
-
+        border-bottom: 1px solid hsl(257, 27%, 26%);
+    }
+    #p{
+        width: 400px;
+    }
+    #o{
+        width: 400px;
+        border-top: 1px solid hsl(257, 27%, 26%);
     }
     .heading{
 
@@ -525,13 +535,11 @@ footer{
         justify-content: flex-start;
         align-content: flex-end;
 
-        border: 1px solid black;
         height: 700px;
     }
     .headingText{
         flex-direction: row;
 
-        border: 1px solid black;
 
         height: 200px;
         width: 400px;
@@ -545,7 +553,6 @@ footer{
         width: 200px;
     }
     .man-computer-image{
-        border: 1px solid black;
         align-self: flex-start;
         height: 300px;
         width: 400px;
@@ -553,7 +560,6 @@ footer{
 
     }
     .middle{
-        border: 1px solid black;
         flex-direction: row;
         width: 400px;
         max-height: fit-content;
@@ -582,7 +588,6 @@ footer{
         width: 90%;
     }
     .short-urlAndBtn{
-        border: 1px solid black;
         height: 100px;
         width: 270px;;
         display: flex;
@@ -607,7 +612,6 @@ footer{
         width: 100%;
     }
     .lower{
-        border: 1px solid black;
         height: fit-content;
         width: 400px;
         flex-direction: row;
@@ -622,6 +626,7 @@ footer{
         height: fit-content;
     }
     #one,#two,#three{
+        
         width: 300px;
         margin: 0px;
         position: relative;
@@ -629,8 +634,10 @@ footer{
         bottom: 0;;
         left: 0;
         right: 0;
+        margin-bottom: 60px;
     }
     #one p,#two p,#three p{
+        
         padding: 5px 5px;
     }
     .first-card img,.second-card img,.third-card img{
