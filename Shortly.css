@@ -510,12 +510,12 @@ footer{
     #All-in-one-btn ul li{
         
 
-        font-size: medium;
+        font-size: x-large;
         font-weight: 100;
         display: flex;
         justify-content: center;
         font-family: 'Poppins', sans-serif;
-        background-color: whitesmoke;
+
         border-bottom: 1px solid hsl(257, 27%, 26%);
     }
     #p{
